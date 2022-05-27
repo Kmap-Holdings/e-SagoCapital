@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+
+    <!-- Line Icons -->
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
+
+    <!-- Favicon Icon -->
+    <link
+      rel="shortcut icon"
+      href="./public/images/efavicon.png"
+      type="image/png"
+    />
+
+    <!-- Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700,800&display=swap"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./public/css/app.css" />
+    <link rel="stylesheet" href="./public/css/animate.css" />
+    <link rel="stylesheet" href="./public/css/theme.css" />
+
+    <title>e-Sago Capital</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
+    <!--[if (lt IE 9)
+      ]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script
+    ><![endif]-->
+  </head>
+  <body class="font-sans antialiased">
+    <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+    <div class="min-h-screen bg-gray-100">
+      <!--====== PRELOADER PART START ======-->
+      <div class="preloader">
+        <div class="loader">
+          <div class="ytp-spinner">
+            <div class="ytp-spinner-container">
+              <div class="ytp-spinner-rotator">
+                <div class="ytp-spinner-left">
+                  <div class="ytp-spinner-circle"></div>
+                </div>
+                <div class="ytp-spinner-right">
+                  <div class="ytp-spinner-circle"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--====== PRELOADER PART FINISH ======-->
+
+      <!--====== NAVIGATION PART START ======-->
+      <section class="header_area">
+        <div class="navbar-area bg-white">
+          <!-- header navbar -->
+          <div class="container relative">
+            <div class="row items-center">
+              <div class="w-full">
+                <!-- navbar-->
+                <nav
+                  class="flex items-center justify-between py-4 navbar navbar-expand-lg"
+                >
+                  <a class="navbar-brand mr-5" href="index.html">
+                    <!-- Company logo-->
+                    <img
+                      class="h-16 w-auto"
+                      src="./public/images/logo-small.png"
+                      alt="Logo"
+                    />
+                  </a>
+                  <!-- \\ Company logo-->
+                  <button
+                    class="block navbar-toggler focus:outline-none lg:hidden"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarOne"
+                    aria-controls="navbarOne"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <!-- Toogle Icon-->
+                    <span class="toggler-icon"></span>
+                    <span class="toggler-icon"></span>
+                    <span class="toggler-icon"></span></button
+                  ><!-- \\Toogle Icon-->
+
+                  <div
+                    class="absolute left-0 z-20 hidden w-full px-5 py-3 duration-300 bg-white lg:w-auto collapse navbar-collapse lg:block top-full mt-full lg:static lg:bg-transparent shadow lg:shadow-none"
+                    id="navbarOne"
+                  >
+                    <!-- Menu list items-->
+                    <ul
+                      id="nav"
+                      class="items-center content-start mr-auto lg:justify-end navbar-nav lg:flex"
+                    >
+                      <li class="nav-item ml-5 lg:ml-11">
+                        <a class="page-scroll active" href="#home">Home</a>
+                      </li>
+                      <li class="nav-item ml-5 lg:ml-11">
+                        <a class="page-scroll" href="#about">About</a>
+                      </li>
+                      <li class="nav-item ml-5 lg:ml-11">
+                        <a class="page-scroll" href="#why">Why us</a>
+                      </li>
+                      <li class="nav-item ml-5 lg:ml-11">
+                        <a class="page-scroll" href="#services">Services</a>
+                      </li>
+                      <li class="nav-item ml-5 lg:ml-11">
+                        <a class="page-scroll" href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- \\Menu list items-->
+                  <!-- navbar collapse -->
+                </nav>
+                <!-- \\navbar -->
+              </div>
+            </div>
+            <!-- row -->
+          </div>
+          <!-- container -->
+        </div>
+        <!-- \\header navbar -->
+      </section>
+      <!--====== NAVIGATION PART FINISH ======-->
+      <!--====== HOME PAGE PART START ========-->
+      <section class="Home_section pb-20">
+        <div
+          id="home"
+          class="header_hero bg-slate-300 relative z-10 overflow-hidden lg:flex items-center sm:mx-auto"
+        >
+          <div class="container">
+            <!-- Home Page Welcome Text -->
+            <div class="row">
+              <div class="w-full lg:w-1/2">
+                <div class="header_hero_content pt-150 lg:pt-0">
+                  <h2
+                    class="hero_title text-3xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl font-extrabold"
+                  >
+                    Welcome to
+                    <span class="text-esago-color"> e-Sago </span> Capital.
+                    Financing for the
+                    <span class="text-theme-color">Future</span>
+                  </h2>
+                  <p class="mt-8 text-lg lg:mr-8">
+                    Our desire is to assist the ordinary Motswana owned
+                    business, start, grow and become sustainable over a lifetime
+                  </p>
+                  <div class="hero_btn mt-10">
+                    <a class="main-btn" href="#about">About us</a>
+                  </div>
+                </div>
+                <!-- \\Home Page Welcome Text -->
+                <!-- header hero content -->
+              </div>
+            </div>
+            <!-- row -->
+          </div>
+          <!-- container -->
+          <!-- Header Skew Shape-->
+          <div class="header_shape hidden lg:block"></div>
+          <!-- \\ Header Skew Shape-->
+          <!-- Header Image -->
+          <div class="header_image flex items-center">
+            <div class="image 2xl:pl-25">
+              <img
+                class="h-96 -mt-14 lg:h-[32rem] 2xl:h-[40rem] lg:mt-0"
+                src="./public/images/femalecoaching.png"
+                alt="Header Image"
+              />
+            </div>
+          </div>
+          <!-- \\header image -->
+        </div>
+        <!-- header hero -->
+      </section>
+      <!--====== HOME PAGE PART FINISH ========-->
+      <!--====== PROCESS PART START ========-->
+      <section class="services_area pt-20 pb-20" id="about">
+        <div class="container">
+          <div class="row justify-center">
+            <div class="w-full lg:w-1/2">
+              <div class="section_title text-center pb-6">
+                <h5 class="sub_title">About</h5>
+                <h4 class="main_title">Work Process</h4>
+              </div>
+              <!-- section title -->
+            </div>
+          </div>
+          <!-- row -->
+          <div class="row justify-center">
+            <!-- Processes -->
+            <div class="w-full sm:w-10/12 md:w-6/12 lg:w-3/12">
+              <!-- single process -->
+              <div class="single_services text-center mt-8 mx-3">
+                <div class="services_icon">
+                  <!-- Icon -->
+                  <i class="lni lni-write"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="94"
+                    height="92"
+                    viewBox="0 0 94 92"
+                  >
+                    <path
+                      class="services_shape"
+                      id="Polygon_13"
+                      data-name="Polygon 13"
+                      d="M42.212,2.315a11,11,0,0,1,9.576,0l28.138,13.6a11,11,0,0,1,5.938,7.465L92.83,54.018A11,11,0,0,1,90.717,63.3L71.22,87.842A11,11,0,0,1,62.607,92H31.393a11,11,0,0,1-8.613-4.158L3.283,63.3A11,11,0,0,1,1.17,54.018L8.136,23.383a11,11,0,0,1,5.938-7.465Z"
+                    />
+                  </svg>
+                </div>
+                <!-- \\Icon -->
+                <div class="services_content mt-5">
+                  <!-- Text -->
+                  <h3
+                    class="services_title text-black font-semibold text-xl md:text-3xl"
+                  >
+                    Research
+                  </h3>
+                  <p class="mt-4">
+                    Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat,
+                    sed diam voluptua. At vero eos accusam et justo duo dolores
+                  </p>
+                </div>
+                <!-- \\Text -->
+              </div>
+            </div>
+            <!-- \\single process -->
+            <div class="w-full sm:w-10/12 md:w-6/12 lg:w-3/12">
+              <!-- \\single process -->
+              <div class="single_services text-center mt-8 mx-3">
+                <div class="services_icon">
+                  <i class="lni lni-bulb"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="94"
+                    height="92"
+                    viewBox="0 0 94 92"
+                  >
+                    <path
+                      class="services_shape"
+                      id="Polygon_14"
+                      data-name="Polygon 14"
+                      d="M42.212,2.315a11,11,0,0,1,9.576,0l28.138,13.6a11,11,0,0,1,5.938,7.465L92.83,54.018A11,11,0,0,1,90.717,63.3L71.22,87.842A11,11,0,0,1,62.607,92H31.393a11,11,0,0,1-8.613-4.158L3.283,63.3A11,11,0,0,1,1.17,54.018L8.136,23.383a11,11,0,0,1,5.938-7.465Z"
+                    />
+                  </svg>
+                </div>
+                <div class="services_content mt-5">
+                  <h3
+                    class="services_title text-black font-semibold text-xl md:text-3xl"
+                  >
+                    Prototype
+                  </h3>
+                  <p class="mt-4">
+                    Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat,
+                    sed diam voluptua. At vero eos accusam et justo duo dolores
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- \\single process -->
+            <div class="w-full sm:w-10/12 md:w-6/12 lg:w-3/12">
+              <!-- single process -->
+              <div class="single_services text-center mt-8 mx-3">
+                <div class="services_icon">
+                  <!-- Icon -->
+                  <i class="lni lni-checkmark-circle"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="94"
+                    height="92"
+                    viewBox="0 0 94 92"
+                  >
+                    <path
+                      class="services_shape"
+                      id="Polygon_15"
+                      data-name="Polygon 15"
+                      d="M42.212,2.315a11,11,0,0,1,9.576,0l28.138,13.6a11,11,0,0,1,5.938,7.465L92.83,54.018A11,11,0,0,1,90.717,63.3L71.22,87.842A11,11,0,0,1,62.607,92H31.393a11,11,0,0,1-8.613-4.158L3.283,63.3A11,11,0,0,1,1.17,54.018L8.136,23.383a11,11,0,0,1,5.938-7.465Z"
+                    />
+                  </svg>
+                </div>
+                <!-- \\Icon -->
+                <div class="services_content mt-5">
+                  <!-- Text -->
+                  <h3
+                    class="services_title text-black font-semibold text-xl md:text-3xl"
+                  >
+                    Build
+                  </h3>
+                  <p class="mt-4">
+                    Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat,
+                    sed diam voluptua. At vero eos accusam et justo duo dolores
+                  </p>
+                </div>
+                <!-- \\Text -->
+              </div>
+            </div>
+            <!-- \\single process -->
+            <div class="w-full sm:w-10/12 md:w-6/12 lg:w-3/12">
+              <!-- single process -->
+              <div class="single_services text-center mt-8 mx-3">
+                <div class="services_icon">
+                  <!-- Icon -->
+                  <i class="lni lni-customer"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="94"
+                    height="92"
+                    viewBox="0 0 94 92"
+                  >
+                    <path
+                      class="services_shape"
+                      id="Polygon_12"
+                      data-name="Polygon 12"
+                      d="M42.212,2.315a11,11,0,0,1,9.576,0l28.138,13.6a11,11,0,0,1,5.938,7.465L92.83,54.018A11,11,0,0,1,90.717,63.3L71.22,87.842A11,11,0,0,1,62.607,92H31.393a11,11,0,0,1-8.613-4.158L3.283,63.3A11,11,0,0,1,1.17,54.018L8.136,23.383a11,11,0,0,1,5.938-7.465Z"
+                    />
+                  </svg>
+                </div>
+                <!-- \\Icon -->
+                <div class="services_content mt-5">
+                  <!-- Text -->
+                  <h3
+                    class="services_title text-black font-semibold text-xl md:text-3xl"
+                  >
+                    Support
+                  </h3>
+                  <p class="mt-4">
+                    Lorem ipsum dolor sit amet, consetetur sadi aliquyam erat,
+                    sed diam voluptua. At vero eos accusam et justo duo dolores
+                  </p>
+                </div>
+                <!-- \\Text -->
+              </div>
+            </div>
+            <!-- \\single process -->
+          </div>
+          <!-- Processes -->
+          <!-- row -->
+        </div>
+        <!-- \\container -->
+      </section>
+      <!--====== PROCESS PART FINISH ========-->
+      <!--====== ABOUT PART START ========-->
+      <section id="why" class="about_area pt-20 relative bg-slate-50 pb-20">
+        <div class="about_image flex items-end justify-end">
+          <div class="image lg:pr-13">
+            <img src="./public/images/discussion.png" alt="about" />
+          </div>
+        </div>
+        <!-- about image -->
+        <div class="container">
+          <div class="row justify-end">
+            <div class="w-full lg:w-1/2">
+              <div class="about_content mx-4 pt-11 lg:pt-0 lg:pb-15">
+                <div class="section_title pb-9">
+                  <!-- Section title -->
+                  <h5 class="sub_title">Why Choose Us</h5>
+                  <h4 class="main_title">Your Success is Our Success</h4>
+                </div>
+                <!-- \\Section title -->
+                <!-- section title -->
+                <p>
+                  <strong class="text-esago-color">e-Sago</strong> Capital's can
+                  only be successful if its clients are successful. The business
+                  model was built delibaretly to ensure that the company focuses
+                  on thier clients success as it translates to our success.
+                </p>
+                <ul class="about_list pt-3">
+                  <li class="flex mt-5">
+                    <div class="about_check">
+                      <i class="lni lni-checkmark-circle"></i>
+                    </div>
+                    <div class="about_list_content pl-5 pr-2">
+                      <p>
+                        Our crowdfunding platfrom aims to provide access to
+                        capital for over 5000 start-up companies raising more
+                        than
+                        <strong class="text-theme-color"
+                          >P2 Billion by 2030
+                        </strong>
+                      </p>
+                    </div>
+                  </li>
+                  <li class="flex mt-5">
+                    <div class="about_check">
+                      <i class="lni lni-checkmark-circle"></i>
+                    </div>
+                    <div class="about_list_content pl-5 pr-2">
+                      <p>
+                        We facilitate sustainable development goal oriented
+                        enterprises to access the funding they require to pursue
+                        their goals
+                      </p>
+                    </div>
+                  </li>
+                  <li class="flex mt-5">
+                    <div class="about_check">
+                      <i class="lni lni-checkmark-circle"></i>
+                    </div>
+                    <div class="about_list_content pl-5 pr-2">
+                      <p>
+                        We are focused on developing Motswana owned business
+                        ventures
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- about content -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </section>
+      <!--====== ABOUT PART FINISH ========-->
+      <!--====== SERVICES PART START ========-->
+      <section id="services" class="services_area pt-20 pb-20">
+        <div class="container">
+          <div class="row justify-center">
+            <!-- Section Title -->
+            <div class="w-full lg:w-1/2">
+              <div class="section_title text-center pb-6">
+                <h5 class="sub_title">What We Do</h5>
+                <h4 class="main_title">Our Services</h4>
+              </div>
+            </div>
+          </div>
+          <!-- \\section title -->
+          <!-- row -->
+          <div class="row justify-center">
+            <!-- Services -->
+            <div class="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
+              <!-- single services -->
+              <div class="single_services text-center mt-8 mx-3">
+                <div class="services_icon">
+                  <i class="lni lni-network"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="94"
+                    height="92"
+                    viewBox="0 0 94 92"
+                  >
+                    <path
+                      class="services_shape"
+                      id="Polygon_16"
+                      data-name="Polygon 16"
+                      d="M42.212,2.315a11,11,0,0,1,9.576,0l28.138,13.6a11,11,0,0,1,5.938,7.465L92.83,54.018A11,11,0,0,1,90.717,63.3L71.22,87.842A11,11,0,0,1,62.607,92H31.393a11,11,0,0,1-8.613-4.158L3.283,63.3A11,11,0,0,1,1.17,54.018L8.136,23.383a11,11,0,0,1,5.938-7.465Z"
+                    />
+                  </svg>
+                </div>
+                <div class="services_content mt-5 xl:mt-10">
+                  <h3
+                    class="services_title text-black font-semibold text-xl md:text-2xl lg:text-xl xl:text-3xl"
+                  >
+                    Crowd<br />Funding
+                  </h3>
+                  <p class="mt-4">
+                    Crowdfunding will facilitate the matching of entrepreneuer
+                    with investors. Our platform will connect individuals and
+                    institutions alike, providing investors the opportunity to
+                    support the businesses they like, and growing together with
+                    them
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- \\single services -->
+
+            <div class="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
+              <!-- single services -->
+              <div class="single_services text-center mt-8 mx-3">
+                <div class="services_icon">
+                  <i class="lni lni-consulting"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="94"
+                    height="92"
+                    viewBox="0 0 94 92"
+                  >
+                    <path
+                      class="services_shape"
+                      id="Polygon_17"
+                      data-name="Polygon 17"
+                      d="M42.212,2.315a11,11,0,0,1,9.576,0l28.138,13.6a11,11,0,0,1,5.938,7.465L92.83,54.018A11,11,0,0,1,90.717,63.3L71.22,87.842A11,11,0,0,1,62.607,92H31.393a11,11,0,0,1-8.613-4.158L3.283,63.3A11,11,0,0,1,1.17,54.018L8.136,23.383a11,11,0,0,1,5.938-7.465Z"
+                    />
+                  </svg>
+                </div>
+                <div class="services_content mt-5 xl:mt-10">
+                  <h3
+                    class="services_title text-black font-semibold text-xl md:text-2xl lg:text-xl xl:text-3xl"
+                  >
+                    Corporate<br />
+                    Advisory
+                  </h3>
+                  <p class="mt-4">
+                    Our focus area is on social enterprises. Our team will play
+                    a fund-raising advisory role to enterprises that are
+                    predominantly involved in acheiving sustainable development
+                    goals. We aim to become a thought leader and practitioner in
+                    mobilizing capital targetted towards the SDG's
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- \\single services -->
+
+            <div class="w-full sm:w-10/12 md:w-6/12 lg:w-4/12">
+              <!-- single services -->
+              <div class="single_services text-center mt-8 mx-3">
+                <div class="services_icon">
+                  <i class="lni lni-investment"></i>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="94"
+                    height="92"
+                    viewBox="0 0 94 92"
+                  >
+                    <path
+                      class="services_shape"
+                      id="Polygon_18"
+                      data-name="Polygon 18"
+                      d="M42.212,2.315a11,11,0,0,1,9.576,0l28.138,13.6a11,11,0,0,1,5.938,7.465L92.83,54.018A11,11,0,0,1,90.717,63.3L71.22,87.842A11,11,0,0,1,62.607,92H31.393a11,11,0,0,1-8.613-4.158L3.283,63.3A11,11,0,0,1,1.17,54.018L8.136,23.383a11,11,0,0,1,5.938-7.465Z"
+                    />
+                  </svg>
+                </div>
+                <div class="services_content mt-5 xl:mt-10">
+                  <h3
+                    class="services_title text-black font-semibold text-xl md:text-2xl lg:text-xl xl:text-3xl"
+                  >
+                    Mortgage<br />Administration
+                  </h3>
+                  <p class="mt-4">
+                    Special Purpose Alliances will be created to bring technical
+                    expertise for administering social housing mortgages for the
+                    underhoused.In partnership with entities that are looking to
+                    provide financing in a sustainable manner for their member
+                    base, we will work with Pension Funds in structuring an
+                    effective mechanism of providing home financing.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- \\single services -->
+          </div>
+          <!-- Services -->
+          <!-- \\row -->
+        </div>
+      </section>
+      <!--====== SERVICES PART FINISH ========-->
+      <!--====== TEAM PART START ========-->
+      <section id="team" class="team_area bg-slate-50 pt-20 pb-20">
+        <div class="container">
+          <div class="row justify-center">
+            <!-- section title -->
+            <div class="w-full lg:w-1/2">
+              <div class="section_title text-center pb-6">
+                <h5 class="sub_title">Team</h5>
+                <h4 class="main_title">Meet Our Team Members</h4>
+              </div>
+            </div>
+          </div>
+          <!-- \\section title -->
+          <!-- row -->
+          <div class="team-wrapper relative">
+            <!-- Teams -->
+            <div class="row team_active flex justify-center">
+              <div class="w-full lg:w-4/12">
+                <!-- Single Team -->
+                <div class="single_team_item mx-auto">
+                  <div class="single_team mx-3">
+                    <div class="team_image relative">
+                      <img
+                        src="./public/images/team-1.jpg"
+                        alt="team"
+                        class="w-full"
+                      />
+                      <ul class="social absolute top-4 right-8">
+                        <li>
+                          <a title="phone" href="#"
+                            ><i class="lni lni-phone"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a title="email" href="#"
+                            ><i class="lni lni-envelope"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a title="linkedin" href="#"
+                            ><i class="lni lni-linkedin-original"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="team_content py-5 px-8 relative group-hover:bg-esago-color"
+                    >
+                      <h4 class="team_name text-xl md:text-2xl">
+                        <a href="#" class="text-black group-hover:text-white"
+                          >Batho Motubudi</a
+                        >
+                      </h4>
+                      <p
+                        class="mt-2 transition-all duration-300 group-hover:text-white"
+                      >
+                        Founder
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- \\single team -->
+              <div class="w-full lg:w-4/12">
+                <!-- single team -->
+                <div class="single_team_item mx-auto">
+                  <div class="single_team mx-3">
+                    <div class="team_image relative">
+                      <img
+                        src="./public/images/team-2.jpg"
+                        alt="team"
+                        class="w-full"
+                      />
+                      <ul class="social absolute top-4 right-8">
+                        <li>
+                          <a title="phone" href="#"
+                            ><i class="lni lni-phone"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a title="email" href="#"
+                            ><i class="lni lni-envelope"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a title="linkedin" href="#"
+                            ><i class="lni lni-linkedin-original"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="team_content py-5 px-8 relative group-hover:bg-esago-color"
+                    >
+                      <h4 class="team_name text-xl md:text-2xl">
+                        <a href="#" class="text-black group-hover:text-white"
+                          >Yandile Nuku</a
+                        >
+                      </h4>
+                      <p
+                        class="mt-2 transition-all duration-300 group-hover:text-white"
+                      >
+                        Business Development Manager
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- \\single team -->
+            </div>
+            <!-- \\Teams -->
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </section>
+      <!--====== TEAM PART FINISH ========-->
+      <!--====== CONTACT PART START ========-->
+      <section id="contact" class="contact_area relative pt-20 pb-20">
+        <div class="contact_image flex items-center justify-end">
+          <div class="image lg:pr-13">
+            <img src="./public/images/contact.svg" alt="contact" />
+          </div>
+        </div>
+        <!-- about image -->
+        <div class="container">
+          <div class="row justify-end">
+            <div class="w-full lg:w-1/2">
+              <div class="contact_wrapper mt-11">
+                <div class="section_title pb-4">
+                  <h5 class="sub_title">Contact</h5>
+                  <h4 class="main_title">Get In Touch</h4>
+                  <p>
+                    Get in touch with us and watch your business grow using our
+                    soultions, access to our vast network of entrepreneurs,
+                    institutions and investors.
+                  </p>
+                </div>
+                <!-- section title -->
+
+                <div class="contact_form">
+                  <form
+                    id="contact-form"
+                    action="assets/php/contact.php"
+                    method="POST"
+                  >
+                    <div class="row">
+                      <div class="w-full md:w-1/2">
+                        <div class="mx-3">
+                          <div class="single_form mt-8">
+                            <input
+                              name="name"
+                              id="name"
+                              type="text"
+                              placeholder="Name"
+                              class="w-full rounded-md py-4 px-6 border border-solid border-body-color"
+                            />
+                          </div>
+                          <!-- single form -->
+                        </div>
+                      </div>
+                      <div class="w-full md:w-1/2">
+                        <div class="mx-3">
+                          <div class="single_form mt-8">
+                            <input
+                              name="email"
+                              id="email"
+                              type="email"
+                              placeholder="Email"
+                              class="w-full rounded-md py-4 px-6 border border-solid border-body-color"
+                            />
+                          </div>
+                          <!-- single form -->
+                        </div>
+                      </div>
+                      <div class="w-full">
+                        <div class="mx-3">
+                          <div class="single_form mt-8">
+                            <textarea
+                              name="message"
+                              id="message"
+                              placeholder="Message"
+                              rows="5"
+                              class="w-full rounded-md py-4 px-6 border border-solid border-body-color resize-none"
+                            ></textarea>
+                          </div>
+                          <!-- single form -->
+                        </div>
+                      </div>
+                      <p class="form-message mx-3"></p>
+                      <div class="w-full">
+                        <div class="mx-3">
+                          <div class="single_form mt-8">
+                            <button type="submit" class="main-btn contact-btn">
+                              Submit
+                            </button>
+                          </div>
+                          <!-- single form -->
+                        </div>
+                      </div>
+                    </div>
+                    <!-- row -->
+                  </form>
+                </div>
+                <!-- contact form -->
+              </div>
+              <!-- contact wrapper -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </section>
+      <!--====== CONTACT PART FINISH ========-->
+    </div>
+    <!--========= FOOTER PART START ==========-->
+    <footer id="footer" class="footer_area bg-esago-color relative z-10">
+      <div
+        class="shape absolute left-0 top-0 opacity-5 h-full overflow-hidden w-1/3"
+      >
+        <img src="./public/images/footer-shape-left.png" alt="" />
+      </div>
+      <div
+        class="shape absolute right-0 top-0 opacity-5 h-full overflow-hidden w-1/3"
+      >
+        <img src="./public/images/footer-shape-right.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="footer_widget pt-18 pb-120">
+          <div class="row justify-center">
+            <div class="w-full md:w-1/2 lg:w-3/12">
+              <div class="footer_about mt-13 mx-3">
+                <div class="footer_logo">
+                  <a title="logo-image" href="#"
+                    ><img src="./public/images/logo-footer.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <!-- footer about -->
+            </div>
+            <div class="w-full md:w-1/2 lg:w-5/12">
+              <div class="footer_link_wrapper flex flex-wrap mx-3">
+                <div class="footer_link w-1/2 md:pl-13 mt-13">
+                  <h2 class="footer_title text-xl font-semibold text-white">
+                    Contact
+                  </h2>
+                  <ul class="link pt-4 text-white">
+                    <li>+267 71322999</li>
+                    <li>batho@e-sago.capital</li>
+                  </ul>
+                </div>
+                <!-- footer link -->
+                <div class="footer_link w-1/2 md:pl-13 mt-13">
+                  <h2 class="footer_title text-xl font-semibold text-white">
+                    Address
+                  </h2>
+                  <ul class="link pt-4 text-white">
+                    <li>Unit B4/S12, Grand Park</li>
+                    <li>Plot 50161, Block 5</li>
+                    <li>Gaborone</li>
+                  </ul>
+                </div>
+                <!-- footer link -->
+              </div>
+              <!-- footer link wrapper -->
+            </div>
+            <div class="w-full md:w-2/3 lg:w-4/12">
+              <div class="footer_subscribe mt-13 mx-3">
+                <h2 class="footer_title text-xl font-semibold text-white">
+                  Join Our Mailing list
+                </h2>
+                <div class="subscribe_form text-right mt-9 relative">
+                  <form action="#">
+                    <input
+                      type="text"
+                      placeholder="Enter email"
+                      class="w-full py-5 px-6 bg-white text-black rounded-full border-none"
+                    />
+                    <button type="submit" class="main-btn subscribe-btn">
+                      Join
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <!-- footer subscribe -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- footer widget -->
+        <div
+          class="footer_copyright pt-3 pb-6 border-t-2 border-solid border-white border-opacity-10 sm:flex justify-between"
+        >
+          <div class="footer_social pt-4 mx-3 text-center">
+            <ul class="social flex justify-center sm:justify-start">
+              <li class="mr-3">
+                <a title="facebook" href="#"
+                  ><i class="lni lni-facebook-filled"></i
+                ></a>
+              </li>
+              <li class="mr-3">
+                <a title="twitter" href="#"
+                  ><i class="lni lni-twitter-filled"></i
+                ></a>
+              </li>
+              <li class="mr-3">
+                <a title="linkedin" href="#"
+                  ><i class="lni lni-linkedin-original"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <!-- footer social -->
+          <div class="footer_copyright_content pt-4 text-center">
+            <p class="text-white">
+              Developed and Maintained by
+              <a
+                title="ikenye"
+                href="https://i-kenye.com"
+                rel="nofollow"
+                class="text-white hover:text-theme-color"
+                >i-Kenye (Pty) Ltd</a
+              >
+            </p>
+          </div>
+          <!-- footer copyright content -->
+        </div>
+        <!-- footer copyright -->
+      </div>
+      <!-- container -->
+    </footer>
+    <!--========= FOOTER PART FINISH ==========-->
+
+    <!--====== BACK TO TOP PART START ======-->
+    <a title="back-to-top" href="#" class="scroll-top"
+      ><i class="lni lni-chevron-up"></i
+    ></a>
+    <!--====== BACK TOP TOP PART ENDS ======-->
+    <!--====== App js ======-->
+    <script src="/public/js/app.js"></script>
+    <!--====== Tiny Slider js ======-->
+    <script src="./public/js/tiny-slider.js"></script>
+    <!--====== Wow js ======-->
+    <script src="./public/js/wow.min.js"></script>
+  </body>
+</html>
