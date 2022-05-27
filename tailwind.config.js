@@ -2,7 +2,7 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-  content: ["./*.html", "/public/index.html", "./public/js/*.js"],
+  content: ["./public/*.html", "./public/js/*.js"],
   theme: {
     container: {
       center: true,
